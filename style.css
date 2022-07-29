@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #2b2922;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    height:20vh;
+    align-items: center;
+}
+
+nav .list{
+    list-style-type:none;
+    display:flex;
+    gap:30px;
+    font-weight: 200;
+    font-size: 15px;
+    align-items: center;
+}
+
+.navbar div img{
+    width:140px;
+    margin-left:20px;
+}
+
+.navbar .list .list-item:first-child {
+    font-weight: 500;
+}
+
+.navbar .button-small{
+    background-color: transparent;
+    border: 1px solid #a08f36;
+    color: #a08f36;
+    padding:10px 20px;
+    margin-right:50px;
+    border-radius:8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 26vh;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+.hero-left h1 {
+    font-size: 3.4rem;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-left:120px;
+}
+.hero-right p {
+    line-height: 28px;
+    margin-right:200px;
+}
+
+.banner{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.banner .banner-container img{
+    width:100%;
+    height:350px;
+}
+
+.arrow-btns{
+    display:flex;
+    height:100px;
+    justify-content:right;
+    margin-top:0;
+}
+
+.arrow-btns div:first-child {
+    background-color: #39372d;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btns div:last-child {
+    background-color: #a08f36;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-btns div:first-child span {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #a08f36;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-btns div:last-child span {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
