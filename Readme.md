@@ -4,7 +4,7 @@
 
 
 ### Live Link
-[Home](https://letsbuildbettertomorrow.netlify.app/)
+[Home](https://justicefortruth.netlify.app/)
 
 ![LCO](https://img.shields.io/badge/Ineuron-LCO-blue)
 
